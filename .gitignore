@@ -1,0 +1,22 @@
+# Kubeconfig - contains cluster credentials
+.kube/
+kubeconfig
+*.kubeconfig
+
+# SSH keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Secrets and tokens
+*.token
+secrets/
+*.secret
+
+# Ansible vault files
+*.vault
+
+# OS noise
+.DS_Store
+Thumbs.db
