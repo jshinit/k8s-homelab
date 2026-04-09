@@ -1,4 +1,0 @@
-# Ansible connection variables
-# These reference encrypted values from vault.yml
-ansible_user: "{{ vault_ansible_user }}"
-ansible_ssh_private_key_file: "{{ vault_ansible_ssh_key }}"
